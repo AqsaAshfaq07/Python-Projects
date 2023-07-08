@@ -7,13 +7,13 @@ letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
 
 # Step - 1 - Use caesar function for encryption and decryption
 
-def caesar( direction_, message_, shift_):
+def caesar(direction_, message_, shift_):
     cipher_text = ""
     
     for char in message_:
         if char in letters:
             pos = letters.index(char)
-            if direction == "encode":
+            if direction_ == "encode":
                 new_pos = pos + (shift_ % 26)  # shift_ % 26 -> to tackle with higher shift numbers 
             else:
                 new_pos = pos - (shift_ % 26)
@@ -28,7 +28,7 @@ def caesar( direction_, message_, shift_):
     print(f"The cipher text is {cipher_text}")
     
 
-# Step - 1  - Ask user for direction, message and shift and take decisions 
+# Step - 2  - Ask user for direction, message and shift and take decisions 
 
 continue_ = True
 
