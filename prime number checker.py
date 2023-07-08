@@ -1,4 +1,4 @@
-# prime number - that can only be divided by itself
+# prime number - that can only be divided by itself 
 
 n = int(input("Check this number:  \n"))
 
