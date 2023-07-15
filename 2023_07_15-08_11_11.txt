@@ -1,0 +1,8 @@
+User: hey
+AI: Hello! How can I assist you today?
+User: who won the worldup in 1992
+AI: The Cricket World Cup in 1992 was won by Pakistan.
+User: okayy thanks
+AI: You're welcome! If you have any more questions, feel free to ask.
+User: exit
+AI: Sure! If you have any more questions in the future, feel free to ask. Have a great day! Goodbye!
